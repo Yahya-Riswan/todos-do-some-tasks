@@ -1,12 +1,68 @@
-# React + Vite
+# 📝 React Redux Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Todo List** app built with **React** and **Redux**, featuring add, update, delete, and complete tasks functionality.  
+Todos are persisted in **localStorage** so they stay even after refreshing the page.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Add new todos
+- ✏️ Edit existing todos
+- ✅ Mark todos as completed
+- ❌ Delete todos
+- 💾 Auto-save todos to `localStorage`
+- ⌨️ Press **Enter** to quickly add or update todos
+- 🎯 Focus input when editing
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── App.jsx # Main component
+├── App.css # Styles
+├── redux/
+│ └── todosReducer.js # Redux slice for todos
+└── index.js # App entry point
+
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/todo-app.git
+```
+2. Navigate into the project folder:
+```bash
+cd todo-app
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm start
+```
+
+---
+
+##  🛠️ Usage
+
+1. Type your todo in the input box.
+
+2. Click Add or press Enter to save.
+
+3. Use the checkbox to mark completed.
+
+4. Click the ✏️ edit button to update text.
+
+5. Click the 🗑️ delete button to remove.
+
+
+---
+
+## 💾 Local Storage
+
+Todos are saved in the browser’s localStorage automatically, so your list is persistent across page reloads.
+
+
