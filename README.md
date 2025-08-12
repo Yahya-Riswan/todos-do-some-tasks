@@ -1,5 +1,7 @@
 # 📝 React Redux Todo App
 
+## **View Live** https://todos-do.web.app
+
 A simple and clean **Todo List** app built with **React** and **Redux**, featuring add, update, delete, and complete tasks functionality.  
 Todos are persisted in **localStorage** so they stay even after refreshing the page.
 
